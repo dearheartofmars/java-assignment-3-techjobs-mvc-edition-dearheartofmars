@@ -98,7 +98,7 @@ public class TestTaskThree {
     }
 
     /*
-     * Checks that displaySearchResults calls JobData.findByColumnAndValue when apppropriate
+     * Checks that displaySearchResults calls JobData.findByColumnAndValue when appropriate
      * */
     @Test
     public void testDisplaySearchResultsCallsFindByColumnAndValue(@Mocked JobData jobData) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
